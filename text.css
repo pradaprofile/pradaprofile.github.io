@@ -1,0 +1,100 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 .tw-wrapper \{\
+  max-width: 350px;\
+  margin: 40px auto;\
+  background: #0f1a14;\
+  border: 1px solid #1e2d23;\
+  border-radius: 15px;\
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;\
+  color: #e6f2ea;\
+  position: relative; /* REQUIRED */\
+\}\
+\
+/* REMOVE overflow:hidden completely */\
+\
+.tw-header-img \{\
+  width: 100%;\
+  height: 120px;\
+  object-fit: cover;\
+  display: block;\
+  position: relative;\
+  z-index: 1;\
+\}\
+\
+.tw-pfp-ring \{\
+  position: absolute;\
+  top: 110px; /* banner height - half avatar */\
+  left: 15px;\
+  width: 80px;\
+  height: 80px;\
+  border-radius: 50%;\
+  background: #0f1a14;\
+  padding: 4px;\
+  box-shadow: 0 0 0 4px #0f1a14;\
+  z-index: 9999; /* FORCE ABOVE */\
+\}\
+\
+.tw-pfp-img \{\
+  width: 100%;\
+  height: 100%;\
+  border-radius: 50%;\
+  object-fit: cover;\
+  display: block;\
+\}\
+\
+.tw-btn-edit \{\
+  position: absolute;\
+  right: 15px;\
+  top: 150px;\
+  padding: 6px 16px;\
+  border: 1px solid #2f4638;\
+  border-radius: 20px;\
+  font-weight: bold;\
+  font-size: 13px;\
+  background: #15251c;\
+  color: #cde6d6;\
+\}\
+\
+.tw-tab-container \{\
+  display: flex;\
+  border-bottom: 1px solid #24382c;\
+  margin-top: 80px; /* push content below avatar */\
+\}\
+\
+.tw-tab \{\
+  flex: 1;\
+  text-align: center;\
+  padding: 12px 0;\
+  font-size: 13px;\
+  color: #7fa895;\
+  font-weight: bold;\
+\}\
+\
+.tw-tab-active \{\
+  color: #ffffff;\
+  border-bottom: 4px solid #3fa36b;\
+\}\
+\
+.tw-content \{\
+  padding: 15px;\
+\}\
+\
+.tw-grid \{\
+  display: flex;\
+  gap: 8px;\
+  justify-content: space-between;\
+\}\
+\
+.tw-rounded-img \{\
+  width: 48%;\
+  aspect-ratio: 1/1;\
+  border-radius: 15px;\
+  border: 1px solid #24382c;\
+  object-fit: cover;\
+\}}
